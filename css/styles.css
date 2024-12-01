@@ -239,7 +239,7 @@ body {
   justify-content: center;
 }
 .header__menu-item {
-  padding: 0px 20px;
+  padding: 0px 50px 0px 20px;
 }
 .header__menu-item a {
   text-decoration: none;
