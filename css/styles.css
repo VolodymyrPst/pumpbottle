@@ -384,7 +384,6 @@ body {
 .shop {
   max-width: 606px;
   z-index: 12;
-  padding-left: 15px;
 }
 .shop-title {
   font-weight: 500;
@@ -511,6 +510,13 @@ body {
     left: 75px;
   }
 }
+
+@media screen and (max-width: 1244px) {
+  .shop {
+    padding-left: 15px;
+  }
+}
+
 @media screen and (min-width: 1240px) and (max-width: 1440px) {
   .shop {
     width: 620px;
