@@ -1,0 +1,23 @@
+@mixin min-max($min-width, $max-width) {
+  min-width: $min-width;
+  max-width: $max-width;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@mixin font-styles($font-weight, $font-size, $line-height) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin btn($font-size, $font-weight, $line-height, $color, $padding, $bg) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  padding: $padding;
+  background-color: $bg;
+  border: 1px solid $btn-bg;
+  text-align: center;
+}

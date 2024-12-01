@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "./sections/intro.scss";
+@import "./sections/gallery.scss";
+@import "./sections/partners.scss";
+@import "./sections/products.scss";
+@import "./sections/stats.scss";
+@import "./sections/exposition.scss";
+@import "./sections/footer.scss";

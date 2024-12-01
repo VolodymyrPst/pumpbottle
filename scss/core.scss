@@ -1,0 +1,33 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: $white;
+  font-size: 16px;
+}
+
+.container {
+  @include min-max(320px, 100%);
+}
+
+.wrap {
+  @include min-max(320px, 1240px);
+}
+
+.wrap-gallery {
+  @include min-max(320px, 1440px);
+}
+
+p,
+a {
+  color: $gray;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,37 @@
+.partners {
+  margin-bottom: 130px;
+  &__list {
+    justify-content: space-evenly;
+    align-items: center;
+    border-block: 1px solid $border;
+    margin: 0 134px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    padding: 42px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .partners {
+    &__list {
+      margin: 0 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .partners {
+    margin-bottom: 40px;
+    &__item {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .partners {
+    margin-bottom: 60px;
+  }
+}
