@@ -57,7 +57,7 @@
   width: 50%;
   &-item {
     width: 100%;
-    background-image: url("/assets/img/header-gallery.jpg");
+    background-image: url("assets/img/header-gallery.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -82,7 +82,7 @@
   border: none;
   background-color: inherit;
   cursor: pointer;
-  background-image: url("../../assets/icons/Arrow-Left-2.svg");
+  background-image: url("assets/icons/Arrow-Left-2.svg");
   background-repeat: no-repeat;
   background-position: center;
   color: transparent;
@@ -133,5 +133,5 @@
 }
 
 .slick-prev {
-  background-image: url("../../assets/icons/Arrow-Right-2.svg");
+  background-image: url("assets/icons/Arrow-Right-2.svg");
 }
